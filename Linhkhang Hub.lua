@@ -9,8 +9,8 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Rimus Hub <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join Rimus's Discord to Get the Latest Information <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Linhkhang Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join Linhkhang Hub's Discord to Get the Latest Information <Color=/>"):Display()
 end)
 
 
